@@ -24,7 +24,7 @@ class Main(Frame):
         for bt in btns:
             com = lambda x=bt: self.logicalc(x)
             Button(text=bt, bg="#2F539B",
-                   font=("Times New Roman", 15),
+                   font=("Times New Roman", 15), foreground="#FFF",
                    command=com).place(x=x, y=y,
                                       width=115,
                                       height=79)
